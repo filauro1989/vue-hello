@@ -12,8 +12,24 @@ const container = new Vue(
         el: '#container',
         data: {
             message: 'lorem ipsum e anche un pò di più!',
-            image: 'img/nine-300x300-halloween-web-banners-260nw-84800977.jpg',
-            text: ''
+            image1: 'img/nine-300x300-halloween-web-banners-260nw-84800977.jpg'
+
         },
     }
 );
+
+const wrapper = new Vue(
+    {
+        el:'#wrapper',
+        data: {
+            image2: 'img/pc.jpg',
+            text: '',
+            number: 3
+        },
+        methods: {
+            addOne:function(){
+                this.number += 1;
+            }
+        },
+    }
+)

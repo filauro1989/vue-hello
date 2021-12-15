@@ -15,10 +15,19 @@
             {{ message }}
         </h1>
 
-        <img :src="image" alt="">
+        <img :src="image1" alt="">
 
+    </div>
+    
+    <div id="wrapper">
         <input type="text" v-model="text">
         <p>{{ text }}</p>
+
+        <img :src="image2" alt="">
+        <h1 style="display: inline-block;">{{ number }}</h1>
+
+        <button @click="addOne">aumenta i prodotti desiderati</button>
+
     </div>
     
     <script src="js/script.js"></script>
