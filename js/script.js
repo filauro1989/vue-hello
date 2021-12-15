@@ -12,7 +12,7 @@ const container = new Vue(
         el: '#container',
         data: {
             message: 'lorem ipsum e anche un pò di più!',
-            image: 'https://www.shutterstock.com/image-vector/set-nine-300x300-valentines-day-banner-94332646'
+            image: 'img/nine-300x300-halloween-web-banners-260nw-84800977.jpg'
         },
     }
 );
