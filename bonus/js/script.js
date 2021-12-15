@@ -12,7 +12,8 @@ const container = new Vue(
         el: '#container',
         data: {
             message: 'lorem ipsum e anche un pò di più!',
-            image: 'img/nine-300x300-halloween-web-banners-260nw-84800977.jpg'
+            image: 'img/nine-300x300-halloween-web-banners-260nw-84800977.jpg',
+            text: ''
         },
     }
 );
